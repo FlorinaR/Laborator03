@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_weight="0.46"
+        android:columnCount="14"
+        android:rowCount="3" >
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_column="0"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="2"
+            android:src="@drawable/call" />
+
+        <Button
+            android:id="@+id/btn_star"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="2"
+            android:text="@string/btn_star" />
+
+        <Button
+            android:id="@+id/btn1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="5"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="2"
+            android:text="@string/btn1" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="5"
+            android:layout_gravity="left|bottom"
+            android:layout_row="2"
+            android:text="@string/btn6" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="6"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="2"
+            android:text="@string/btn2" />
+
+        <Button
+            android:id="@+id/btn7"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="6"
+            android:layout_gravity="left|bottom"
+            android:layout_row="2"
+            android:text="@string/btn7" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="7"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="2"
+            android:text="@string/btn3" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="7"
+            android:layout_gravity="left|bottom"
+            android:layout_row="2"
+            android:text="@string/btn8" />
+
+        <ImageButton
+            android:id="@+id/backspace"
+            android:layout_column="7"
+            android:layout_gravity="left|top"
+            android:layout_row="2"
+            android:src="@drawable/backspace" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="11"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="2"
+            android:text="@string/btn4" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="11"
+            android:layout_gravity="left|bottom"
+            android:layout_row="2"
+            android:text="@string/btn9" />
+
+        <Button
+            android:id="@+id/btn_sharp"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="12"
+            android:layout_gravity="left|top"
+            android:layout_row="2"
+            android:text="@string/btn_sharp" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="12"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="2"
+            android:text="@string/btn5" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_column="12"
+            android:layout_gravity="left|bottom"
+            android:layout_row="2"
+            android:text="@string/btn0" />
+
+        <ImageButton
+            android:id="@+id/hangup"
+            android:layout_column="13"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="2"
+            android:src="@drawable/hangup" />
+    </GridLayout>
+
+</LinearLayout>

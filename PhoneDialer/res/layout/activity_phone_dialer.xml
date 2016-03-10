@@ -29,19 +29,19 @@
         </EditText>
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/hangup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/hangup" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/call" />
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/backspace"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/backspace" />
