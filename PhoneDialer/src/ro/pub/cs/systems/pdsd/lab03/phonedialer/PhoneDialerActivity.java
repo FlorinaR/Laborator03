@@ -63,7 +63,7 @@ public class PhoneDialerActivity extends Activity {
     	}
     	
     	/* Call functionality */
-    	ImageButton call_btn = (ImageButton) findViewById(R.id.call);
+    	final ImageButton call_btn = (ImageButton) findViewById(R.id.call);
     	if (phoneNumber.getText().toString() != " ") {
     		call_btn.setOnClickListener(new View.OnClickListener() {
 				
@@ -78,7 +78,7 @@ public class PhoneDialerActivity extends Activity {
     	}
     	
     	/* Hang-up functionality */
-    	ImageButton hangup_btn = (ImageButton) findViewById(R.id.hangup);
+    	final ImageButton hangup_btn = (ImageButton) findViewById(R.id.hangup);
     	if (phoneNumber.getText().toString() != " ") {
     		hangup_btn.setOnClickListener(new View.OnClickListener() {
 				
